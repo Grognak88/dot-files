@@ -37,7 +37,6 @@ mason_tool_installer.setup({
 		"stylua",
 		"isort",
 		"black",
-		"pylint",
 		"eslint_d",
 	},
 })
