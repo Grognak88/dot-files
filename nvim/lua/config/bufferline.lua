@@ -1,7 +1,7 @@
 require("bufferline").setup({
 	options = {
-		mode = "tabs",
-		separator_style = "slant",
+		mode = "buffers",
+		separator_style = "slope",
 		offsets = {
 			{
 				filetype = "NvimTree",

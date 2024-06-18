@@ -72,6 +72,10 @@ for type, icon in pairs(signs) do
 	vim.fn.sign_define(hl, { text = icon, texthl = hl, numhl = "" })
 end
 
+lspconfig.gleam.setup({
+	capabilities = capabilities,
+})
+
 mason_lspconfig.setup_handlers({
 	-- default handler for installed servers
 	function(server_name)
