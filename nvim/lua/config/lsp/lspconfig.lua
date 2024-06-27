@@ -1,6 +1,3 @@
--- require neconf
-require("neoconf").setup()
-
 -- import lspconfig plugin
 local lspconfig = require("lspconfig")
 
